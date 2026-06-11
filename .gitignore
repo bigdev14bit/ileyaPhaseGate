@@ -1,0 +1,7 @@
+# Ignore all Vim/text editor swap files
+*.swp
+.*.swp
+
+# Ignore OS-specific hidden files
+.DS_Store
+Thumbs.db

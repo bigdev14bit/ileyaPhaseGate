@@ -39,17 +39,14 @@ for things in range(subjects):
 
 header += f"{'TOT':<10}{'AVR':<13}{'POS':<10}"
 print(header)
-print("=" * 80)
-print()
 #-------------------------------------------HEADER.
 
 #-------------------------------------------------------ASTERICKS.
-#astericks = len(header)
+astericks = len(header)
 
-# 3. Print the top borders using our new dynamic length
-#print("=" * astericks)
-#print(header)
-#print("-" * astericks)
+print("=" * astericks)
+print(header)
+print("-" * astericks)
 #-------------------------------------------------------ASTERICKS.
 
 #-------------------------------------------TOTAL TOTAL.
@@ -87,6 +84,5 @@ for ranges in range(students):
         row += f"{numbers:<10}"
     row += f"{current_score:<10}{average:<10.2f}{positions:<10}"
     print(row)
-    #print("=" * 80)
     print(astericks)
 #--------------------------------------------------------------------------------FINAL TABLE.
